@@ -5,6 +5,7 @@ pkgbase = libv4l-rkmpp-git
 	url = https://github.com/JeffyCN/libv4l-rkmpp
 	install = libv4l-rkmpp.install
 	arch = aarch64
+	arch = armv7h
 	license = LGPL2.1
 	makedepends = meson
 	depends = v4l-utils-mpp
