@@ -19,7 +19,7 @@ sha256sums=(
   '3e8aa46f93d7e410fccaceb5336d0b9107cff53b965af87b8c4ddb9f7fdfd040'
 )
 arch=('aarch64' 'armv7h')
-depends=('v4l-utils-mpp' 'librga-multi' 'mpp')
+depends=('v4l-utils-mpp' 'mpp')
 makedepends=('meson')
 optdepends=('mpp-git: in case the non-git mpp lacks features needed for this plugin')
 conflicts=("${_pkgname}")

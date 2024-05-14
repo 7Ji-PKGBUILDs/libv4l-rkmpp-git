@@ -9,7 +9,6 @@ pkgbase = libv4l-rkmpp-git
 	license = LGPL2.1
 	makedepends = meson
 	depends = v4l-utils-mpp
-	depends = librga-multi
 	depends = mpp
 	optdepends = mpp-git: in case the non-git mpp lacks features needed for this plugin
 	provides = libv4l-rkmpp=1.5.1.r5.38da407
